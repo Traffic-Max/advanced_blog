@@ -24,6 +24,7 @@ mix.browserSync({
     notify: false,
     files: [
         'app/templates/**/*.html',
+        'pages/templates/**/*.html',
     ]
 })
 
