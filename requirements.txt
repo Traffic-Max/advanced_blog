@@ -1,3 +1,4 @@
 Django>=4.1,<4.2
 wagtail>=4.2,<4.3
 python-dotenv==1.0.0
+wagtail-metadata==4.0.3

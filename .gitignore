@@ -29,10 +29,12 @@ __pycache__/
 *.sqlite
 
 # Если вы используете Django, вы можете также добавить следующие строки:
+package-lock.json
 *.pot
 *.py[co]
 *.cache
 *.DS_Store
 local_settings.py
 db.sqlite3
-media
+/media/
+/static/
