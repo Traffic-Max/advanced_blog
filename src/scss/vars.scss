@@ -1,0 +1,35 @@
+$transition: (
+    prop: all,
+    duration: .2s,
+    animation: linear
+);
+
+$breakpoints: (
+    sm: 640px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1280px
+);
+
+$container: (
+    sm: 640px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1200px
+);
+
+:root {
+    --bg-color: #fff;
+    --color: #282c34;
+    --muted-color: #{rgba(#000, .4)};
+    --theme-color: #FFA800;
+    --border-color: #{rgba(#000, .1)};
+
+    @media (prefers-color-scheme: dark) {
+        --bg-color: #282c34;
+        --color: #{rgba(#fff, .9)};
+        --muted-color: #{rgba(#fff, .5)};
+        --theme-color: #FFA800;
+        --border-color: #{rgba(#fff, .1)};
+    }
+}
