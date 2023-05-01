@@ -1,0 +1,41 @@
+{
+  "name": "new_advanced_blog",
+  "version": "1.0.0",
+  "description": "My wagtail website!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf app/static/* && npx mix watch --hot",
+    "build": "rm -rf app/static/* && npx mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Traffic-Max/advanced_blog.git"
+  },
+  "keywords": [
+    "wagtail",
+    "blog",
+    "advanced",
+    "django",
+    "python",
+    "javascript",
+    "html",
+    "css",
+    "laravel-mix",
+    "full-stack"
+  ],
+  "author": "Max <badass.marketing>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Traffic-Max/advanced_blog/issues"
+  },
+  "homepage": "https://github.com/Traffic-Max/advanced_blog#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.49",
+    "postcss-sort-media-queries": "^5.1.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^12.6.0"
+  }
+}
