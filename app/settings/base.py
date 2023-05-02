@@ -174,3 +174,12 @@ WAGTAILSEARCH_BACKENDS = {
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 WAGTAILADMIN_BASE_URL = "http://example.com"
+
+# Meta tags settings
+META_USE_OG_PROPERTIES = True
+META_USE_TWITTER_PROPERTIES = True
+META_USE_FACEBOOK_PROPERTIES = True
+META_USE_SCHEMAORG_PROPERTIES = True
+META_USE_SITES = True
+META_INCLUDE_KEYWORDS = True
+META_DEFAULT_KEYWORDS = True

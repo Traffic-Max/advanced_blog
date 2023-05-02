@@ -5,4 +5,6 @@ from django.db import models
 
 
 class HomePage(ExtPage):
-    pass
+    object_type = 'website'
+    schemaorg_type = 'website'
+    

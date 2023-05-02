@@ -39,3 +39,10 @@ class ExtPage(MetadataPageMixin, Page):
     
     class Meta:
         abstract = True
+
+    @property
+    def get_meta_keywords(self):
+        if self.keywords:
+            return map(lambda key: key.strip(), self.keywords.split(','))
+
+    
